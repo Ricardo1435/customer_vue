@@ -25,7 +25,7 @@ class CustomerController extends Controller
     {
         return response()->json($customer);
     }
-   
+
     public function update(Request $request, Customer $customer)
     {
         $customer->fill($request->post())->save();
