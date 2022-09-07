@@ -2079,6 +2079,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -19729,6 +19730,8 @@ var render = function() {
         _c("div", { staticClass: "container-fluid" }, [
           _vm._m(0),
           _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
           _c(
             "div",
             {
@@ -19786,6 +19789,18 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "navbar-brand", attrs: { href: "/" } }, [
+      _c("i", {
+        staticClass: "fa fa-building",
+        attrs: { "aria-hidden": "true" }
+      }),
+      _vm._v(" TAREA")
+    ])
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement

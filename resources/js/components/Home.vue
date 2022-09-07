@@ -1,9 +1,5 @@
 <template>
-    <div class="container mt-4">
         <div class="container md">
-            <div class="col text-center">
-                <h1>RICARDO <span class="badge bg-secondary">OLIVA</span></h1>
-            </div>
             <!-- Carrusel -->
             <div id="carouselImage" class="carousel slide my-4 mx-5" data-ride="carousel" >
                 <ol class="carousel-indicators">
@@ -27,6 +23,11 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+
+            <hr>
+            <div class="col text-center">
+                <h1>RICARDO <span class="badge bg-secondary">OLIVA</span></h1>
+            </div>
+            <hr>
         </div>
-    </div>
 </template>
