@@ -42,38 +42,4 @@ class CustomerController extends Controller
         ]);
     }
 
-//    public function deleteCustomer($id){
-//        $customer= $this->getCustomer($id);
-//        $customer->delete();
-//        $customer1 = response()->json([
-//            'mensaje'=>'¡Registro eliminado correctamente!'
-//        ]);
-//        return [$customer, $customer1];
-//
-//    }
-//    public function getCustomer($id)
-//    {
-//        $customer = Customer::find($id);
-//
-//        return $customer;
-//
-//    }
-//    public function getCustomer1($id)
-//    {
-//        $customer = Customer::find($id);
-//        $customer1 = response()->json([
-//            'mensaje'=>'¡Registro OBtenido correctamente!'
-//        ]);
-//        return [$customer,$customer1];
-//
-//    }
-//
-//    public function editCustomer($id, Request $request){
-//        $customer = $this->getCustomer($id);
-//        $customer->fill($request->all())->save();
-//        $customer1 = response()->json([
-//            'mensaje'=>'¡Registro Editado correctamente!'
-//        ]);
-//        return [$customer,$customer1];
-//    }
 }
