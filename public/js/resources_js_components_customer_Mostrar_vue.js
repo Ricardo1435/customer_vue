@@ -113,6 +113,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       if (confirm("¿Desea eliminar el registro?")) {
         this.axios["delete"]("/api/customer/".concat(id)).then(function (response) {
           _this2.mostrarCustomers();
+
+          alert("Registro Eliminado");
         })["catch"](function (error) {
           console.log(error);
         });

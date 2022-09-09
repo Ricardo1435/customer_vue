@@ -93,6 +93,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                   _this.$router.push({
                     name: "mostrarCustomers"
                   });
+
+                  alert("Registro Exitoso");
                 })["catch"](function (error) {
                   console.log(error);
                 });

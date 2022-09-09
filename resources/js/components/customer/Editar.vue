@@ -65,6 +65,7 @@ export default {
         async actualizar(){
             await this.axios.put(`/api/customer/${this.$route.params.id}`,this.customer).then(response=>{
                 this.$router.push({name:"mostrarCustomers"})
+                alert("Registro Actualizado");
             }).catch(error=>{
                 console.log(error)
             })

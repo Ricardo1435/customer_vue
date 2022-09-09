@@ -52,6 +52,7 @@ export default {
         async crear(){
             await this.axios.post('/api/customer',this.customer).then(response=>{
                 this.$router.push({name:"mostrarCustomers"})
+                alert("Registro Exitoso");
             }).catch(error=>{
                 console.log(error)
             })

@@ -64,6 +64,7 @@ export default {
             if(confirm("¿Desea eliminar el registro?")){
                 this.axios.delete(`/api/customer/${id}`).then(response=>{
                     this.mostrarCustomers()
+                    alert("Registro Eliminado");
                 }).catch(error=>{
                     console.log(error)
                 })
